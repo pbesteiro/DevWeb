@@ -5,6 +5,16 @@
 
 <head>
     <title>DEV PLACE</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8F2VXV');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta
         name="viewport"
@@ -47,9 +57,36 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/js.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8F2VXV"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
         
@@ -70,7 +107,7 @@
                 <div class="carousel-item active carousel">
                     <div class="carousel-title">
                         <div class="container-grid-developer-btn">
-                            <button class="btn-aplica-slide">
+                            <button class="btn-aplica-slide" type="button">
                                 <a href="#proximas-fechas" class="btn-aplica-scroll">Aplica</a>
                             </button>
                         </div>
@@ -81,11 +118,10 @@
         <div class="parent">
             <div class="div1">
                 <div class="text-analytics">
-                    <h3 class="title-general">Objetivo del programa</h3>
+                    <h3 class="title-general">¿Qué vas a aprender?</h3>
                     <div>
-                        <p>El objetivo principal del curso es introducirte al mundo de la programación JavaScript, empezando de cero conocimiento hasta llevarte a un nivel intermedio, necesario para que puedas ingresar sin problemas a capacitaciones en lenguajes más avanzados. 
-                            Si queres ser un programador con bases sólidas para continuar aumentando tus conocimientos, este curso es para vos!.</p>
-                        <p>Al terminar este curso tendrás una base sólida de las herramientas fundamentales de programación como Tipos de Datos, Operadores, Sentencias de Control, Ciclos, Arreglos, Funciones y mucho más.</p>
+                        <p>Aprender JavaScript hoy en día es una necesidad de cualquier desarrollador Front End que inclusive puede expandirse al Back End y desarrollo móvil. JavaScript es uno de los lenguajes más demandados en la industria y saberlo utilizar es fundamental para ser competitivo en el mercado laboral. </p>
+                        <p>El objetivo principal del curso es introducirte al mundo de la programación JavaScript, empezando de cero hasta llevarte a un nivel intermedio, necesario para que puedas ingresar sin problemas a capacitaciones en lenguajes más avanzados. Si querés ser un programador con bases sólidas para continuar aumentando tus conocimientos, este curso es para vos! </p>
                     </div>
                     <div>
                         <img
@@ -93,16 +129,7 @@
                             height="250vw"
                             src="assets/images/dw1.jpg"
                             alt="" />
-                    </div>
-                    <p>
-                        Aprender JavaScript hoy en día es una necesidad de cualquier
-            desarrollador Front-End que inclusive puede expandirse al Back-End y
-            desarrollo móvil. JavaScript es uno de los lenguajes más demandados
-            en la industria y saberlo utilizar es fundamental para ser
-            competitivo en el mercado laboral, y este curso tiene por objetivo
-            darte lo que necesitas para mantenerte al día en este lenguaje.
-         
-                    </p>
+                    </div>                  
                 </div>
             </div>            
             <div class="div2">
@@ -115,14 +142,8 @@
                 </div>
             </div>
             <div class="div3">
-                <h3 class="title-general">Perfil del Ingresante</h3>
-                <p>
-                    El curso está dirigido a estudiantes de la carrera de sistemas o
-          afines (siendo en universidad o tecnicaturas) o profesionales de la
-          industria que tengan experiencia mínima de 6 meses desarrollando en
-          algún lenguaje de programas.
-       
-                </p>
+                <h3 class="title-general">¿A quién va dirigido?</h3>
+                <p>El curso está dirigido a personas con experiencia mínima o nula en programación.</p>   
                 <img
                     width="250vw"
                     height="250vw"
@@ -130,80 +151,42 @@
                     alt="" />
 
                 <h4 class="title-general">Requisitos</h4>
-
                 <ul>
-                    <li>● Conocimientos básicos de programación</li>
-                    <li>● Deben de tener una computadora con Google Chrome</li>
-                    <li>● Conocimiento básico de HTML es recomendable, pero no requerido.
-          </li>
+                    <li>● Conocimiento básico de HTML (recomendable, pero no requerido).</li>
                 </ul>
                 <h4 class="title-general">Herramientas de desarrollo</h4>
-
                 <ul>
-                    <li>● Visual Studio Code</li>
-                    <li>● Google Chrome</li>
-                    <li>● Registrarse en Github (GIT)
-           
-                        <ul>
-                            <li>
-                                <a
-                                    href="
-                    https://github.com/">○ https://github.com/
-                </a>
-                            </li>
-                        </ul>
-                    </li>
+                    <li>● Visual Studio Code (<a href="https://code.visualstudio.com/download" >Descarga</a>).</li>
+                    <li>● Google Chrome (<a href="https://www.google.com/intl/es/chrome/?brand=UUXU&gclid=EAIaIQobChMI7tGaleiP8gIV9Al9Ch1o3Q5cEAAYASAAEgJeCvD_BwE&gclsrc=aw.ds">Descarga</a>).</li>
+                    <li>● Github (<a href="https://github.com/">https://github.com/</a>).</li>
                 </ul>
             </div>
-            <div class="div4">
-                <h3 class="title-general">Dedicación</h3>
-                <p>
-                    La dedicación estimada para el curso es de 20 horas semanales que
-          involucran 2 encuentros semanales online de 2 horas cada uno + la
-          preparación individual asincrónica de proyectos individuales y
-          grupales. (Peer programing y mob programming)
-       
-                </p>
-                <h3 class="title-general">Requerimientos de Aprobación</h3>
-                <p>
-                    Se realizarán 4 evaluaciones a lo largo del curso para determinar el
-          aprendizaje alcanzado a medida que se avance. Los estudiantes deberán
-          alcanzar un puntaje mínimo de 30 puntos en el total de las
-          evaluaciones administradas. El puntaje más alto será de 50 puntos.
-       
-                </p>
+            <div class="div4">     
+                       
                 <h3 class="title-general">Proyecto final</h3>
-                <p>
-                    Una vez culminado el curso los estudiantes deben realizar un proyecto
-          final que englobe todos los temas que se vieron a lo largo de los
-          encuentros. En la entrega final del proyecto el alumno será evaluado
-          del 1 al 10 por el mentor, donde se tendrá en cuenta la calidad del
-          proyecto final entregado. El puntaje mínimo para su aprobación es de 6
-          puntos
-       
-                </p>
-                <h3 class="title-general">Asistencia</h3>
-
-                <p>
-                    El alumno deberá asistir a más del 70% de las clases (al menos 13
-          clases) del curso
-       
-                </p>
+                 <p>
+                    El proyecto final e integrador que se realiza durante la cursada, será aquel que en caso de estar aprobado, 
+                    la institución (DEV PLACE) emitirá un certificado de aprobación del curso. En todas las clases, 
+                    el mentor dispondrá de los primeros 10 minutos en concepto de "daily" para que los alumnos puedan mostrar avances 
+                    y evacuar dudas. Al terminar el curso se hará una clase extra donde los alumnos tendrán que exponer el proyecto y defenderlo. 
+                    Finalizada la exposición, el alumno tendrá que entregar el proyecto para que el mentor lo corrija según las 
+                    rúbricas de evaluación dispuestas por DEV PLACE. 
+                    Posteriormente el mentor le alcanzará una devolución al alumno donde se considerará si el proyecto está 
+                    "aprobado" o se debe "volver a hacer".
+                </p>           
             </div>
 
             <div class="div5">
                 <h3 class="title-general">Perfil del Egresado</h3>
                 <div class="flex-egresado">
+                    <p>Al terminar este curso tendrá una base sólida de las herramientas fundamentales de programación como Tipos de Datos, Operadores, Sentencias de Control, Ciclos, Arreglos, Funciones y mucho más.</p>                    
+                    <br />
                     <ul class="list-egresado-js">
-                        <li>El egresado será capaz de:</li>
-                        <br />
-                        <li>● Manejar JavaScript y su sintaxis</li>
-                        <br />
-                        <li>● Uso de importaciones y sintaxis moderna de JavaScript</li>
-                        <br />
-                        <li>● Pasar de un nivel cero a intermedio</li>
-                        <br />
-                        <li>● Tener la base sólida, para entrar a frameworks como AngularJS, React o Node</li>
+                        <li>Además, estará capacitado para:</li>
+                        <li>● Manejar JavaScript y su sintaxis.</li>
+                        <li>● Uso de importaciones y sintaxis moderna de JavaScript.</li>
+                        <li>● Pasar de un nivel cero a intermedio.</li>
+                        <li>● Tener la base sólida, para entrar a frameworks como AngularJS, React JS o Node JS.</li>
                     </ul>
                     <img
                         width="350vw"
@@ -297,6 +280,19 @@
                                 $('#footer').html(data.Footer);
                                 $("#proximas-fechas").html(data.CursesItems);
                                 $("#precios").html(data.CurseFees);
+
+                                //initialice menu
+                                $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                    $(this).siblings().toggleClass("show");
+                                    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                        $('.dropdown-submenu .show').removeClass("show");
+                                    });
+                                });
+
+
                                 addScrollEfect();
                             }
                         },

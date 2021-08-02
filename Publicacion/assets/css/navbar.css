@@ -309,7 +309,7 @@ p{
     background-color: transparent;
     color: grey;
 }
-
+/*
 .nav-links > ul{
     display: flex;
     justify-content: center;
@@ -450,7 +450,7 @@ p{
 
 .hamburger-menu-container{
     flex: 1;
-    /* background-color: black; */
+
     display: none;
     align-items: center;
     justify-content: flex-end;
@@ -459,7 +459,7 @@ p{
 .hamburger-menu{
     width: 2.5rem;
     height: 2.5rem;
-    /* background-color: black; */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -572,8 +572,6 @@ p{
     .nav-links{
         flex: initial;
         width: 100%;
-
-        /* background-color: red; */
     }
 
     .nav-links > ul{
@@ -697,8 +695,101 @@ p{
         opacity: 0;
         transform: translateY(15px);
 
-        /* background-color: green; */
+        
     }
 
 }
+    */
 
+
+/*TEST MENU*/
+.navbar-light .navbar-nav .nav-link 
+{
+ color: gray;
+}
+
+.subtit {
+    padding: 8px 10px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+    text-transform: capitalize;
+    /*padding: 16px 15px;*/
+    font-family: 'Montserrat', sans-serif !important;
+    display: block !important;
+    /*padding: 0.5rem 1rem;*/
+}
+
+.dropdown-submenu {
+    /*position: relative;*/
+    color: grey;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    font-family: 'Montserrat', sans-serif !important;
+    display: block !important;
+}
+
+.dropdown-item {
+    position: relative;
+    padding: 2px 34px;
+    color: grey;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: -2%;
+    left: 100%;
+}
+/*
+position: relative;
+    top: 100%;
+    */
+.dropdown-submenu > a:after {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    content: "\f054" !important;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding-right: 10px;
+}
+
+.dropdown-menu > li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+    .dropdown-menu > li:last-child {
+        border-bottom: none;
+    }
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #5d009b !important;
+    color: #fff !important;
+}
+
+.dropdown-item.dropdown-toggle:hover {
+    color: #5d009b;
+}
+
+.dropdown-item:hover {
+    color: #5d009b;
+}
+
+.dropdown-item a {
+    /*padding: 5px 34px;*/
+}
+
+
+@media (max-width:767px) {
+
+.subtit {
+    padding: 8px 0px;
+}
+
+}
+
+/*END TEST MENU*/

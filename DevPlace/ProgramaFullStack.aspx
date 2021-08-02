@@ -5,6 +5,17 @@
 
 <head>
     <title>DEV PLACE</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8F2VXV');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8" />
     <meta
         name="viewport"
@@ -47,9 +58,38 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/js-full-stack.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8F2VXV"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
       
@@ -80,37 +120,19 @@
         <div class="parent">
             <div class="div1">
                 <div class="text-analytics">
-                    <h3 class="title-general">Objetivos del curso</h3>
+                    <h3 class="title-general">¿Qué vas a aprender?</h3>
                     <div>
                         <p>
-                            El objetivo de este programa es darte todos los conocimientos
-              necesarios para que te conviertas en un desarrollador javascript
-              que pueda realizar proyectos tanto en backend como en frontend.
-              Para esto nuestro, dividimos nuestro programa en tres etapas:
-           
+                           El objetivo de este programa es darte todos los conocimientos necesarios para que te conviertas en un desarrollador
+                            JavaScript que pueda realizar proyectos tanto en Back End como en Front End. Para esto nuestro, dividimos nuestro 
+                            programa en tres etapas:           
                         </p>
+                        <br />
                         <div>
                             <ul>
-                                <br />
-                                <li>● <strong>Introducción a Javascript:</strong> En esta etapa
-                realizaremos un repaso sobre el desarrollo en javascript y sus
-                principales características
-                                </li>
-                                <br />
-                                <li>● <strong>Proyecto Node JS Backend:</strong> Realizaremos una
-                API Rest de una pequeña red social con funciones básicas,
-                implementando la separación de responsabilidades en capas,
-                inyección de dependencias, y dividiendo nuestra lógica de acceso
-                a datos, modelos y lógica de negocio. Trabajaremos con
-                Programación Orientada a Objetos, Principios Solid y Patrones de
-                Diseño e implementaremos la seguridad con Json Web Tokens
-                                </li>
-                                <br />
-                                <li>● <strong>Proyecto React Js Frontend:</strong>Realizaremos
-                front-end de la red social, consumiendo los servicios de nuestra
-                API Rest y realizando los componentes necesarios para realizar
-                las distintas pantallas de nuestra aplicación.
-                                </li>
+                                <li>● <strong>Introducción a Javascript:</strong> en esta etapa realizaremos un repaso sobre el desarrollo en javascript y sus principales características. </li>              
+                                <li>● <strong>Proyecto Node JS Backend:</strong> haremos una API Rest de una pequeña red social con funciones básicas, implementando la separación de responsabilidades en capas, inyección de dependencias, y dividiendo nuestra lógica de acceso a datos, modelos y lógica de negocio. Trabajaremos con Programación Orientada a Objetos, Principios Solid y Patrones de Diseño e implementaremos la seguridad con Json Web Tokens.</li>
+                                <li>● <strong>Proyecto React Js Frontend:</strong> realizaremos el Front End de la red social, consumiendo los servicios de nuestra API Rest y realizando los componentes necesarios para realizar las distintas pantallas de nuestra aplicación.</li>
                             </ul>
                         </div>
                         <div>
@@ -133,75 +155,44 @@
                 </div>
             </div>
             <div class="div3">
-                <h3 class="title-general">Perfil del Ingresante</h3>
+                <h3 class="title-general">¿A quién va dirigido?</h3>
                 <p>
-                    El curso está dirigido a estudiantes de los primeros años de la carrera
-        de sistemas (siendo en universidad o tecnicaturas) o profesionales de la
-        industria que tengan experiencia mínima de 6 meses desarrollando en
-        Javascript y TypeScript.
+                    El curso está dirigido a estudiantes de los primeros años de la carrera de sistemas (siendo en universidad o tecnicaturas)
+                    o profesionales de la industria que tengan experiencia mínima de 6 meses programando en JavaScript y TypeScript.
      
                 </p>
 
                 <h3 class="title-general">Requisitos</h3>
                 <ul>
-                    <li>● Conocimientos básicos de programación</li>
-                    <li>● Conocimientos en Javascript, ES6</li>
-                    <li>● Nociones de HTML y CSS</li>
-                    <li>● Deben de tener una computadora con Google Chrome</li>
+                    <li>● Conocimientos básicos de programación.</li>
+                    <li>● Conocimientos en Javascript, ES6.</li>
+                    <li>● Nociones de HTML y CSS.</li>
                 </ul>
                 <h3 class="title-general">Herramientas de desarrollo</h3>
                 <ul>
-                    <li>● Visual Studio Code</li>
-                    <li>● Google Chrome</li>
-                    <li>● Registrarse en Github (GIT)
-         
-                        <ul>
-                            <li><a href="https://github.com/">https://github.com/</a></li>
-                        </ul>
-                    </li>
+                    <li>● Visual Studio Code (<a href="https://code.visualstudio.com/download" >Descarga</a>). </li>
+                    <li>● Google Chrome (<a href="https://www.google.com/intl/es/chrome/?brand=UUXU&gclid=EAIaIQobChMI7tGaleiP8gIV9Al9Ch1o3Q5cEAAYASAAEgJeCvD_BwE&gclsrc=aw.ds">Descarga</a>).</li>
+                    <li>● Github (<a href="https://github.com/">https://github.com/</a>).</li>
                 </ul>
             </div>
 
-            <div class="div4">
-                <h3 class="title-general">Dedicación</h3>
-                <p>
-                    La dedicación estimada para el curso es de 20 horas semanales que
-        involucran 2 encuentros semanales online de 2 horas cada uno + la
-        preparación individual asincrónica de proyectos individuales y grupales.
-        (Perprograming y mopprograming)
-     
-                </p>
-                <h3 class="title-general">Requerimientos de Aprobación</h3>
-                <p>
-                    Acreditación Se realizarán 2 evaluaciones a lo largo de cada etapa del
-        programa, para determinar el aprendizaje alcanzado a medida que se
-        avance. Los estudiantes deberán alcanzar un puntaje mínimo de 30 puntos
-        en el total de las evaluaciones administradas. El puntaje más alto será
-        de 50 puntos.
-     
-                </p>
+            <div class="div4">               
                 <img
                     width="250vw"
                     height="250vw"
                     src=" assets/images/data-analytics-programa.jpg"
                     alt="" />
-                <h3 class="title-general">Asistencia</h3>
-
-                <p>
-                    El alumno deberá asistir a más del 70% de las clases (al menos 13
-        clases) del curso
-     
-                </p>
+                
 
                 <h3 class="title-general">Proyecto final</h3>
-
                 <p>
-                    Una vez culminado el curso los estudiantes deben realizar un proyecto
-        final que englobe todos los temas que se vieron a lo largo de los
-        encuentros. En la entrega final del proyecto el alumno será evaluado del
-        1 al 10 por el mentor, donde se tendrá en cuenta la calidad del proyecto
-        final entregado. El puntaje mínimo para su aprobación es de 6 puntos.
-     
+                    El proyecto final e integrador que se realiza durante la cursada, será aquel que en caso de estar aprobado, 
+                   la institución (DEV PLACE) emitirá un certificado de aprobación del programa. En todas las clases, 
+                   el mentor dispondrá de los primeros 10 minutos en concepto de "daily" para que los alumnos puedan mostrar avances y 
+                   evacuar dudas. Al terminar el programa se hará una clase extra donde los alumnos tendrán que exponer el proyecto y 
+                   defenderlo. Finalizada la exposición, el alumno tendrá que entregar el proyecto para que el mentor lo corrija según 
+                   las rúbricas de evaluación dispuestas por DEV PLACE. Posteriormente el mentor le alcanzará una devolución al alumno 
+                   donde se considerará si el proyecto está "aprobado" o se debe "volver a hacer".
                 </p>
             </div>
 
@@ -209,35 +200,23 @@
                 <h3 class="title-general">Perfil del Egresado</h3>
                 <div class="flex-egresado">
                     <ul>
-                        <li>● Realizar Web APIs con NodeJS y TypeScript</li>
-                        <li>● Utilizar el framework Nest Js</li>
-                        <li>● Trabajar con las últimas herramientas de desarrollo como Npm y
-            Git.
-                        </li>
+                        <li>Al finalizar este curso estará capacitado para:</li>
+                        <li>● Realizar Web APIs con NodeJS y TypeScript.</li>
+                        <li>● Utilizar el framework Nest JS.</li>
+                        <li>● Trabajar con las últimas herramientas de desarrollo como npm y Git.</li>
                         <li>● Instalar, configurar y trabajar con Docker.</li>
                         <li>● Crear Servicios Rest.</li>
                         <li>● Acceder a la Base de Datos utilizando Mongoose.</li>
-                        <li>● Separar la Lógica de Negocios del acceso a datos, así como la
-            separación de Responsabilidades implementando los principios SOLID
-            de desarrollo.
-                        </li>
-                        <li>● Utilizarán el Servicio Integrado de Inyección de Dependencias.
-                        </li>
-                        <li>● Implementarán Json Web Tokens (JWT) para control de autenticación
-            y administración de roles.
-                        </li>
-                        <li>● Deployar la Api en los servidores Heroku y la base de datos en
-            MongoDb Atlas.
-                        </li>
-                        <li>● Crear aplicaciones en React Js siguiendo las mejores prácticas.
-                        </li>
-                        <li>● Dominar JSX para crear aplicaciones en React Js.</li>
-                        <li>● Crear componentes reutilizables</li>
-                        <li>● Crear una aplicación cliente que consuma una API externa con
-            autenticación y rutas protegidas.
-                        </li>
+                        <li>● Separar la Lógica de Negocios del acceso a datos, así como la separación de Responsabilidades implementando los principios SOLID de desarrollo.</li>
+                        <li>● Utilizarán el Servicio Integrado de Inyección de Dependencias.</li>
+                        <li>● Implementarán Json Web Tokens (JWT) para control de autenticación y administración de roles.</li>
+                        <li>● Deployar la API en los servidores Heroku y la base de datos en MongoDB Atlas.</li>
+                        <li>● Crear aplicaciones en React JS siguiendo las mejores prácticas.</li>
+                        <li>● Dominar JSX para crear aplicaciones en React JS.</li>
+                        <li>● Crear componentes reutilizables.</li>
+                        <li>● Crear una aplicación cliente que consuma una API externa con autenticación y rutas protegidas.</li>
                         <li>● Usar librerías de terceros.</li>
-                        <li>●Publicar tu aplicación frontend en internet.</li>
+                        <li>● Publicar su aplicación Front End en internet.</li>
                     </ul>
                     <img
                         width="350vw"
@@ -326,6 +305,19 @@
                                     $('#footer').html(data.Footer);
                                     $("#proximas-fechas").html(data.CursesItems);
                                     $("#precios").html(data.CurseFees);
+
+                                    //initialice menu
+                                    $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                        $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                        $(this).siblings().toggleClass("show");
+                                        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                            $('.dropdown-submenu .show').removeClass("show");
+                                        });
+                                    });
+
+
                                     addScrollEfect();
                                 }
                             },

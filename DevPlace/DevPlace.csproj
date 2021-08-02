@@ -386,6 +386,7 @@
     <Content Include="ProgramaFullStack.aspx" />
     <Content Include="ProgramsBasics.aspx" />
     <Content Include="ProgramsDevs.aspx" />
+    <Content Include="prueba.aspx" />
     <Content Include="Templates\CurseFees.txt" />
     <Content Include="Templates\form-aplica.txt" />
     <Content Include="html-css.aspx" />

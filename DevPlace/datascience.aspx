@@ -5,6 +5,16 @@
 
 <head>
     <title>DEV PLACE</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8F2VXV');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -36,9 +46,36 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/data-science.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8F2VXV"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
         
@@ -69,42 +106,36 @@
                 <div>
                     <h3 class="title-general">¿Por qué Data Science?</h3>
                     <p>
-                        La digitalización de todas nuestras acciones genera registros digitales que pueden utilizarse para diseñar
-          productos y servicios innovadores, personalizar contenidos y experiencias de usuario, mejorar campañas de
-          mercado, incrementar la lealtad, así como atraer y captar nuevos clientes o usuarios. Esta sigue siendo la
-          promesa básica del poder de los datos: big data y la ciencia de datos.
-          A través de la ciencia de datos, las empresas logran innovar con mayor velocidad y contundencia, agilizan
-          sus procesos de negocio, incrementan utilidades de forma sostenible y reducen riesgos operativos y
-          financieros de manera confiable. Las organizaciones que entienden el poder de los datos como activos
-          estratégicos, buscan sistemáticamente utilizar información y análisis para optimizar sus decisiones y el
-          aprendizaje continuo, dentro de una cultura centrada en la producción de insights.
-          No obstante, la mayoría de las empresas no cuentan con el recurso humano necesario para integrar, analizar
-          y utilizar eficientemente los grandes volúmenes de datos. Es aquí donde entra en juego el rol del
-          Científico de Datos. 
+                        La digitalización de todas nuestras acciones genera registros digitales que pueden utilizarse para diseñar productos 
+                        y servicios innovadores, personalizar contenidos y experiencias de usuario, mejorar campañas de mercado, 
+                        incrementar la lealtad, así como atraer y captar nuevos clientes o usuarios. Esta sigue siendo la promesa básica 
+                        del poder de los datos: Big Data y la Ciencia de Datos. A través de la Ciencia de Datos, las empresas logran innovar 
+                        con mayor velocidad y contundencia, agilizan sus procesos de negocio, incrementan utilidades de forma sostenible y 
+                        reducen riesgos operativos y financieros de manera confiable. Las organizaciones que entienden el poder de los datos 
+                        como activos estratégicos, buscan sistemáticamente utilizar información y análisis para optimizar sus decisiones y el 
+                        aprendizaje continuo, dentro de una cultura centrada en la producción de insights. No obstante, la mayoría de las 
+                        empresas no cuentan con el recurso humano necesario para integrar, analizar y utilizar eficientemente los grandes 
+                        volúmenes de datos. Es aquí donde entra en juego el rol del Científico de Datos.
                     </p>
-                    <div>
-                        <img width="350vw" height="250vw" src="assets/images/ciencia-datos-ilustracion-persona-e-iconos_1124-392.jpeg" alt="" />
+                       <br />
 
                         <p>
-                            El Científico de Datos o Data Scientist es un perfil profesional que traduce los grandes volúmenes de
-            información disponibles conocidos como Big Data en insights de negocio. Es un profesional que combina
-            diversas áreas de conocimiento como
-    
-            matemática, estadística, ingeniería del software e inteligencia artificial, que provee soluciones a
-            problemas en modelos y tendencias de datos para optimizar el proceso de toma de decisiones de las
-            organizaciones.
-            Un científico de datos tiene ciertas diferencias con un analista de datos, aunque hoy en día el análisis
-            de datos es considerado una etapa más dentro de la ciencia de datos. Normalmente, en las organizaciones, la
-            ciencia de datos está a cargo de un equipo multidisciplinario en el que resalta el científico de datos
-            como conocedor de todo el proceso de extracción, exploración y explotación de datos. Una diferencia clave
-            entre ambos roles, es que el científico de datos comúnmente se concentra en la minería de grandes
-            cantidades de datos, estructurados y no estructurados, con el objetivo de identificar patrones usando
-            modelos de aprendizaje automático. Por su parte, el analista de datos normalmente lleva a cabo las tareas
-            de procesar y realizar análisis estadísticos de datos para sacar conclusiones.
-         
+                            El Científico de Datos o Data Scientist es un perfil profesional que traduce los grandes volúmenes de información 
+                            disponibles conocidos como Big Data en insights de negocio. Es un profesional que combina diversas áreas de 
+                            conocimiento como matemática, estadística, ingeniería del software e inteligencia artificial, que provee 
+                            soluciones a problemas en modelos y tendencias de datos para optimizar el proceso de toma de decisiones de las 
+                            organizaciones. Un Científico de Datos tiene ciertas diferencias con un Analista de Datos, aunque hoy en día, 
+                            el análisis de datos es considerado una etapa más dentro de la Ciencia de Datos. Normalmente, 
+                            en las organizaciones, la Ciencia de Datos está a cargo de un equipo multidisciplinario en el que resalta el 
+                            Científico de Datos como conocedor de todo el proceso de extracción, exploración y explotación de datos. 
+                            Una diferencia clave entre ambos roles, es que el Científico de Datos comúnmente se concentra en la minería de 
+                            grandes cantidades de datos, estructurados y no estructurados, con el objetivo de identificar patrones usando 
+                            modelos de aprendizaje automático. Por su parte, el Analista de Datos normalmente lleva a cabo las tareas de 
+                            procesar y realizar análisis estadísticos de datos para sacar conclusiones.         
                         </p>
-                    </div>
+                  
                 </div>
+<%--                 <img width="350vw" height="250vw" src="assets/images/ciencia-datos-ilustracion-persona-e-iconos_1124-392.jpeg" alt="" />--%>
             </div>           
             <div class="div2">
                 <div class="card-cursos">
@@ -116,32 +147,27 @@
                 </div>
             </div>
             <div class="div3">
-                <h3 class="title-general">Objetivos del programa</h3>
-                <p>
-                    Proporcionar conocimientos, metodologías y herramientas sólidas que le permitan al profesional entender,
-      interpretar y extraer los datos necesarios para crear modelos predictivos de ocurrencias futuras a partir de
-      patrones pasados usando Machine Learning.
-   
-                </p>
-                <h6 class="title-general">Requisitos</h6>
-                <p>
-                    Este programa ha sido pensado para profesionales que desean emprender en el área de ciencia de datos y que
-      quieran generar impacto dentro de las unidades de negocio de una organización. Es ideal para quienes esperan
-      ampliar o profundizar conocimientos dentro de sus rubros profesionales, como por ejemplo: Administración y/o
-      Negocios, Ingeniería, Economía, Contabilidad o carreras técnicas. También apunta a quienes buscan dar un
-      giro profesional a su programa orientándose hacia una nueva disciplina muy demandada en el mercado de diversas
-      industrias.
-      Como <strong>requisito indispensable</strong> tener ganas de aprender y de reinventarse en su área profesional.
-      Por otro lado,
-      te recomendamos como <strong>requisitos deseables y no limitantes</strong>, que conozcas conceptos elementales
-      de matemática
-      básica, - lógica e inducción matemática, álgebra y geometría analítica -; conceptos fundamentales de
-      estadística descriptiva e inferencial - población, muestra, medidas de tendencia central, distribuciones de
-      probabilidad y prueba de hipótesis -; fundamentos de programación - conceptos básicos de algoritmia -; así
-      como manejo básico del idioma inglés ya que en el transcurso del programa se utilizan recursos de aprendizaje
-      digitales escritos y hablados en inglés.
-   
-                </p>
+                <h3 class="title-general">¿Qué vas a aprender?</h3>
+                <p>Tendrás conocimientos, metodologías y herramientas sólidas que te permitirán entender, interpretar y extraer los datos 
+                    necesarios para crear modelos predictivos de ocurrencias futuras a partir de patrones pasados usando Machine Learning.</p>
+
+                 <h3 class="title-general">¿A quién va dirigido?</h3>
+                <p>Este programa ha sido pensado para profesionales que desean emprender en el área de ciencia de datos y que quieran 
+                    generar impacto dentro de las unidades de negocio de una organización. Es ideal para quienes esperan ampliar o 
+                    profundizar conocimientos dentro de sus rubros profesionales, como por ejemplo: Administración y/o Negocios, Ingeniería, 
+                    Economía, Contabilidad o carreras técnicas. También apunta a quienes buscan dar un giro profesional a su programa 
+                    orientándose hacia una nueva disciplina muy demandada en el mercado de diversas industrias.</p>   
+                
+
+                <h3 class="title-general">Requisitos</h3>
+                <p>Como requisito indispensable tener ganas de aprender y de reinventarse en su área profesional.  </p>
+                <p>Recomendamos como requisitos deseables y no limitantes:  </p>
+                <ul>
+                    <li>● Conocer los conceptos elementales de matemática básica (lógica e inducción matemática, álgebra y geometría analítica). </li>
+                    <li>● Conocimientos esenciales de estadística descriptiva e inferencial (población, muestra, medidas de tendencia central, distribuciones de probabilidad y prueba de hipótesis).</li>
+                    <li>● Fundamentos de la programación (conceptos básicos de algoritmia).</li>
+                    <li>● Manejo básico del idioma inglés, ya que en el transcurso del programa se utilizan recursos de aprendizaje digitales escritos y hablados en inglés.</li>
+                </ul>
 
             </div>
 
@@ -171,6 +197,18 @@
    
                 </p>
 
+                <h3 class="title-general">Proyecto Final</h3>
+
+               <p>
+                   El proyecto final e integrador que se realiza durante la cursada, será aquel que en caso de estar aprobado, 
+                   la institución (DEV PLACE) emitirá un certificado de aprobación del programa. En todas las clases, 
+                   el mentor dispondrá de los primeros 10 minutos en concepto de "daily" para que los alumnos puedan mostrar avances y 
+                   evacuar dudas. Al terminar el programa se hará una clase extra donde los alumnos tendrán que exponer el proyecto y 
+                   defenderlo. Finalizada la exposición, el alumno tendrá que entregar el proyecto para que el mentor lo corrija según 
+                   las rúbricas de evaluación dispuestas por DEV PLACE. Posteriormente el mentor le alcanzará una devolución al alumno 
+                   donde se considerará si el proyecto está "aprobado" o se debe "volver a hacer".
+                </p>
+
             </div>
 
             <div class="div5">
@@ -181,19 +219,14 @@
        
                 </p>
                 <ul>
-                    <li>- Analiza datos a pequeña y gran escala, utilizando herramientas matemáticas, estadísticas y
+                    <li>● Analiza datos a pequeña y gran escala, utilizando herramientas matemáticas, estadísticas y
           computacionales para resolver problemas complejos.</li>                    
-                    <li>- Implementa un modelo baseline de machine learning utilizando aprendizaje supervisado con el fin de
-          comprender el proceso de extracción e interpretación de métricas de negocio.
-                    </li>
-                    <br>
-                    <li>- Desarrolla modelos de machine learning utilizando aprendizaje supervisado y no supervisado para caracterizar
-          procesos reales y medir el impacto usando indicadores clave de dominio.
-                    </li>
-                    <br>
-                    <li>- Aplica algoritmos de machine learning a diferentes campos especializados de la inteligencia artificial para
-          el desarrollo de aplicaciones reales de ciencia de ciencia de datos.
-                    </li>
+                    <li>● Implementa un modelo baseline de machine learning utilizando aprendizaje supervisado con el fin de
+          comprender el proceso de extracción e interpretación de métricas de negocio.</li>
+                    <li>● Desarrolla modelos de machine learning utilizando aprendizaje supervisado y no supervisado para caracterizar
+          procesos reales y medir el impacto usando indicadores clave de dominio.</li>
+                    <li>● Aplica algoritmos de machine learning a diferentes campos especializados de la inteligencia artificial para
+          el desarrollo de aplicaciones reales de ciencia de ciencia de datos.</li>
                 </ul>
                 <br />
                 <img width="350vw" height="250vw" src="assets/images/concepto-ceremonia-graduacion-virtual_23-2148573423.jpeg"
@@ -281,6 +314,19 @@
                                 $('#footer').html(data.Footer);
                                 $("#proximas-fechas").html(data.CursesItems);
                                 $("#precios").html(data.CurseFees);
+
+                                //initialice menu
+                                $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                    $(this).siblings().toggleClass("show");
+                                    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                        $('.dropdown-submenu .show').removeClass("show");
+                                    });
+                                });
+
+
                                 addScrollEfect();
                             }
                         },

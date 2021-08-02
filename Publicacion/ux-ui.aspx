@@ -38,6 +38,29 @@
         rel="stylesheet" />
 
     <link rel="stylesheet" href="assets/css/style-cursos.css" />
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
@@ -53,7 +76,7 @@
                 <div class="carousel-item active carousel-diseñoux">
                     <div class="carousel-title-diseñoux">
                         <div class="container-grid-developer-btn">
-                            <button class="btn-aplica-slide">
+                            <button class="btn-aplica-slide" type="button">
                                 <a href="#proximas-fechas-data" class="btn-aplica-scroll">Aplica</a>
                             </button>
                         </div>
@@ -87,10 +110,10 @@
                 </div>
 
             </div>
-            <!-- /////////////////********** OBJETIVOS DEL PROGRAMA ************//////////////////// -->
+            <!-- /////////////////********** ¿Qué vas a aprender? ************//////////////////// -->
 
             <div class="div2">
-                <h3 class="title-general">Perfil del ingresante</h3>
+                <h3 class="title-general">¿A quién va dirigido?</h3>
                 <div class="flex-egresado">
                     <p class="text-responsive-fsj">
                         El curso está dirigido a estudiantes de los primeros años de la carrera de sistemas (siendo en universidad o
@@ -111,7 +134,7 @@
                 <ul>
                     <li>● Visual Studio Code </li>
                     <li>● Google Chrome</li>
-                    <li>● Registrarse en Github (GIT)
+                    <li>● Github (GIT)
          
                         <ul>
                             <li><a href="https://github.com/">○ https://github.com/</a></li>
@@ -120,37 +143,30 @@
                 </ul>
                 <h6>Dedicación</h6>
                 <p class="text-responsive-fsj">
-                    La dedicación estimada para el curso es de 20 horas semanales que involucran 2
-        encuentros semanales online de
-        2 horas cada uno + la preparación individual asincrónica de proyectos individuales y grupales. (Perprograming
-        y mopprograming)
+                    La dedicación estimada para el curso es de 20 horas semanales 
+                   que involucran 2 encuentros semanales online de 2 horas cada uno, 
+                   sumada también la preparación individual asincrónica de proyectos 
+                   individuales y grupales. (pair programing y mob programing).
                 </p>
-                <h6 class="title-top">Requerimientos de Aprobación</h6>
-                <h6 class="title-top">Acreditación</h6>
-                <p class="text-responsive-fsj">
-                    Se realizarán varias evaluaciones a lo largo del curso para determinar el aprendizaje alcanzado a
-        medida que se avance.
-        Los estudiantes deberán alcanzar un puntaje mínimo de 30 puntos en el total de las evaluaciones administradas.
-        El puntaje mas alto será de 50 puntos.
-                </p>
+              
+
             </div>
             <!-- /////////////////********** Metodologia  ************//////////////////// -->
 
             <div class="div3">
                 <div>
-                    <h3 class="title-top">Asistencia</h3>
-                    <h6>Cantidad de clases asistidas</h6>
-                    <p class="text-responsive-fsj">
-                        El alumno deberá asistir a más del 70% de las clases (al menos 13 clases) del curso
-       
-                    </p>
+                    
                     <h3 class="title-top">Proyecto Final</h3>
-                    <h6 class="title-top">Entrega de Proyecto Final</h6>
+
                     <p class="text-responsive-fsj">
-                        Una vez culminado el curso los estudiantes deben realizar un proyecto final que englobe todos los temas que se
-          vieron a lo largo de los encuentros. En la entrega final del proyecto el alumno será evaluado del 1 al 10 por
-          el mentor, donde se tendrá en cuenta la calidad del proyecto final entregado.
-          El puntaje mínimo para su aprobación es de 6 puntos.
+                       El proyecto final e integrador sera aquel que en caso de estar aprobado, 
+                    la institución (DEV PLACE) emitirá un certificado de aprobación del curso/programa. 
+                    Se tendrá que  realizar durante la cursada. Todas las clases el mentor dispondrá los primeros 10 minutos 
+                    en concepto de  "daily" donde los alumnos podrán mostrar avances y evacuar dudas opcionalmente 
+                    y al terminar el curso/programa se hará una clase extra donde los alumnos tendrán que exponer el proyecto y defenderlo. 
+                    Finalizada la exposición los alumnos tendrán que entregar el proyecto para que el mentor 
+                    lo corrija según las rubricas de evaluación dispuestas por DEV PLACE y posteriormente pueda alcanzarles 
+                    una devolución al alumno donde se considerara que el proyecto esta  "aprobado" o "volver a hacer".
                     </p>
                 </div>
             </div>
@@ -320,6 +336,19 @@
                              $('#footer').html(data.Footer);
                              $("#proximas-fechas").html(data.CursesItems);
                              $("#precios").html(data.CurseFees);
+
+                             //initialice menu
+                             $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                 event.preventDefault();
+                                 event.stopPropagation();
+                                 $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                 $(this).siblings().toggleClass("show");
+                                 $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                     $('.dropdown-submenu .show').removeClass("show");
+                                 });
+                             });
+
+
                              addScrollEfect();
                          }
                      },

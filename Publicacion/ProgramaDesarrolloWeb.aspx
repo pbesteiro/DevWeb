@@ -36,6 +36,29 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/desarrolloweb.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
@@ -55,7 +78,7 @@
                 <div class="carousel-item active carousel">
                     <div class="carousel-title">
                         <div class="container-grid-developer-btn">
-                            <button class="btn-aplica-slide">
+                            <button class="btn-aplica-slide" type="button">
                                 <a href="#proximas-fechas" class="btn-aplica-scroll">Aplica</a>
                             </button>
                         </div>
@@ -66,30 +89,14 @@
         <div class="parent">
             <div class="div1">
                 <div>
-                    <h3 class="title-general">Objetivos del Curso</h3>
-                    <p>
-                        El objetivo de este programa es darte todos los conocimientos necesarios para que te conviertas en un desarrollador web, para que puedas realizar desde cero el maquetado de un portal web aplicando todo el poder de CSS y JavaScript.
-                        Para esto nuestro, dividimos nuestro programa en tres etapas:
-                    </p>
+                    <h3 class="title-general">¿Qué vas a aprender?</h3>
+                    <p>El objetivo de este programa es darte todos los conocimientos necesarios para que te conviertas en un desarrollador web, para que puedas realizar desde cero el maquetado de un portal web aplicando todo el poder de CSS y JavaScript. 
+                        Para esto nuestro, dividimos nuestro programa en tres etapas:</p>
                     <div>
                         <ul>
-                            <br>
-                            <li>●<strong> Introducción a Javascript:</strong> En esta etapa te introduciremos al mundo de la
-              programación
-              JavaScript,
-              empezando de cero conocimiento hasta llevarte a un nivel intermedio, necesario para poder realizar las
-              funcionalidades necesarias como validación de formulario o utilización de librerías externas. </li>
-                            <div>
-                                <img width="350vw" height="250vw" src="assets/images/dw1.jpg" alt="" />
-                            </div>
-                            <br>
-                            <li>●<strong>Maquetado HTML:</strong> Realizamos la maquetación de una página de viajes a la cual se podrá
-              acceder desde
-              diferentes dispositivos, ya sea una computadora, tablet o celular. </li>
-                            <br>
-                            <li>●<strong>Utilización CSS:</strong> Aplicaremos los estilos del sitio web utilizando clases, etiquetas y
-              todo el poder de
-              CSS.</li>
+                            <li>●<strong> Introducción a Javascript:</strong> En esta etapa te introduciremos al mundo de la programación JavaScript, empezando de cero conocimiento hasta llevarte a un nivel intermedio, necesario para poder realizar las funcionalidades necesarias como validación de formulario o utilización de librerías externas.</li>
+                            <li>●<strong>Maquetado HTML:</strong> Realizamos la maquetación de una página de viajes a la cual se podrá acceder desde diferentes dispositivos, ya sea una computadora, tablet o celular. </li>
+                            <li>●<strong>Utilización CSS:</strong> Aplicaremos los estilos del sitio web utilizando clases, etiquetas y todo el poder de CSS.</li>
                         </ul>
                     </div>
                 </div>
@@ -103,92 +110,57 @@
                 </div>
             </div>
             <div class="div3">
-                <h3 class="title-general">Perfil del Ingresante</h3>
+                <h3 class="title-general">¿A quién va dirigido?</h3>
                 <p>
-                    El curso está dirigido a personas con experiencia mínima o nula en programación
-   
+                    El curso está dirigido a personas con experiencia mínima o nula en programación. 
    
                 </p>
-                <h6 class="title-general">Requisitos</h6>
+                <h3 class="title-general">Requisitos</h3>
                 <div>
                     <ul>
-                        <li>●Conocimientos básicos de programación</li>
-
-                        <li>●Conocimientos en Javascript, ES6 </li>
-
-                        <li>●Nociones de HTML y CSS</li>
-                        <li>● Deben de tener una computadora con Google Chrome</li>
+                        <li>● Conocimientos básicos de programación.</li>
+                        <li>● Conocimientos en Javascript, ES6. </li>
+                        <li>● Nociones de HTML y CSS.</li>
                     </ul>
                 </div>
-                <h6 class="title-general">Herramientas de Desarrollo</h6>
+
+                <h3 class="title-general">Herramientas de Desarrollo</h3>
                 <ul>
-                    <li>● Visual Studio Code </li>
-                    <li>● Google Chrome</li>
-                    <li>●Registrarse en Github (GIT)
-       
-                        <ul>
-                            <li>
-                                <a href="https://github.com/ ">○ https://github.com/ </a>
-                            </li>
-                        </ul>
-                    </li>
+                    <li>● Visual Studio Code (<a href="https://code.visualstudio.com/download" >Descarga</a>). </li>
+                    <li>● Google Chrome (<a href="https://www.google.com/intl/es/chrome/?brand=UUXU&gclid=EAIaIQobChMI7tGaleiP8gIV9Al9Ch1o3Q5cEAAYASAAEgJeCvD_BwE&gclsrc=aw.ds">Descarga</a>).</li>
+                    <li>● Github (<a href="https://github.com/">https://github.com/</a>).</li>
                 </ul>
             </div>
 
             <div class="div4">
-                <h3 class="title-general">Dedicación</h3>
-                <div>
-                    <p>
-                        La dedicación estimada para el curso es de 20 horas semanales que involucran 2 encuentros semanales online de
-        2 horas cada uno + la preparación individual asincrónica de proyectos individuales y grupales. (Perprograming
-        y mopprograming)
-                    </p>
-
-                    <h4 class="title-general">Requerimientos de aprobación</h4>
-                    <h6 class="title-general">Acreditación</h6>
-                    <p>
-                        Se realizarán 2 evaluaciones a lo largo de cada etapa del programa, para determinar el aprendizaje alcanzado a
-        medida que se avance.
-        Los estudiantes deberán alcanzar un puntaje mínimo de 30 puntos en el total de las evaluaciones administradas.
-        El puntaje más alto será de 50 puntos.
-     
-                    </p>
-
-                    <h4 class="title-general">Asistencia</h4>
-                    <h6>Cantidad de clases asistidas</h6>
-                    <p>
-                        El alumno deberá asistir a más del 70% de las clases (al menos 13 clases) del curso
-     
-                    </p>
-
-                </div>
-                <img width="350vw" height="350vw" src=" assets/images/data-analytics-programa.jpg" alt="">
+                
+                
             </div>
 
             <div class="div5">
-                <h3 class="title-general">Proyecto Final</h3>
-                <div>
-                    <h5>Entrega del Proyecto final</h5>
-                    <p>
-                        Una vez culminado el curso los estudiantes deben realizar un proyecto final que englobe todos los temas que se
-          vieron a lo largo de los encuentros. En la entrega final del proyecto el alumno será evaluado del 1 al 10 por
-          el mentor, donde se tendrá en cuenta la calidad del proyecto final entregado.
-          El puntaje mínimo para su aprobación es de 6 puntos.
+                <h3 class="title-general">Proyecto final</h3>
+                <p>
+                    El proyecto final e integrador que se realiza durante la cursada, será aquel que en caso de estar aprobado, 
+                   la institución (DEV PLACE) emitirá un certificado de aprobación del programa. En todas las clases, 
+                   el mentor dispondrá de los primeros 10 minutos en concepto de "daily" para que los alumnos puedan mostrar avances y 
+                   evacuar dudas. Al terminar el programa se hará una clase extra donde los alumnos tendrán que exponer el proyecto y 
+                   defenderlo. Finalizada la exposición, el alumno tendrá que entregar el proyecto para que el mentor lo corrija según 
+                   las rúbricas de evaluación dispuestas por DEV PLACE. Posteriormente el mentor le alcanzará una devolución al alumno 
+                   donde se considerará si el proyecto está "aprobado" o se debe "volver a hacer".
+                </p>
 
-       
-                    </p>
-                    <img width="350vw" height="250vw" src="assets/images/egresado-csharp.jpg" alt="">
-                    <h3 class="title-general">Perfil del Egresado</h3>
-                    <ul>
-                        <li>● Aprender JavaScript y su sintaxis</li>
-                        <li>● Uso de importaciones y sintaxis moderna de JavaScript </li>
-                        <li>● Pasar de un nivel cero a intermedio</li>
-                        <li>● Desarrollo de páginas web siguiendo las mejores prácticas</li>
-                        <li>● Dominar HTML y CSS</li>
-                        <li>Crear sitios web responsive.</li>
-                    </ul>
-
-                </div>
+                <h3 class="title-general">Perfil del Egresado</h3>
+                <ul>
+                    <li>● Aprender JavaScript y su sintaxis.</li>
+                    <li>● Uso de importaciones y sintaxis moderna de JavaScript. </li>
+                    <li>● Pasar de un nivel cero a intermedio.</li>
+                    <li>● Desarrollo de páginas web siguiendo las mejores prácticas.</li>
+                    <li>● Dominar HTML y CSS.</li>
+                    <li>Crear sitios web responsive.</li>
+                </ul>
+                <br />
+                <img width="350vw" height="250vw" src="assets/images/concepto-ceremonia-graduacion-virtual_23-2148573423.jpeg"
+                    alt="">
             </div>
 
             <div class="div6">
@@ -272,6 +244,19 @@
                                 $('#footer').html(data.Footer);
                                 $("#proximas-fechas").html(data.CursesItems);
                                 $("#precios").html(data.CurseFees);
+
+                                //initialice menu
+                                $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                    $(this).siblings().toggleClass("show");
+                                    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                        $('.dropdown-submenu .show').removeClass("show");
+                                    });
+                                });
+
+
                                 addScrollEfect();
                             }
                         },

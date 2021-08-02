@@ -39,6 +39,28 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/figma.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -150,7 +172,7 @@
             </div>
         </div>
         <div class="div3">
-            <h3 class="title-general">Objetivo del programa</h3>
+            <h3 class="title-general">¿Qué vas a aprender?</h3>
             <div class="text-analytics">
                 <div>
                     <p class="div1-text1">
@@ -177,7 +199,7 @@
                 por objetivo darte lo que necesitas para mantenerte al día en este lenguaje.
             </p>
         
-        <h3 class="title-general">Perfil del ingresante</h3>
+        <h3 class="title-general">¿A quién va dirigido?</h3>
         <div class="flex-egresado">
             <p class="text-responsive-fsj">
                 El curso está dirigido a estudiantes de la carrera de sistemas o afines (siendo en universidad o
@@ -204,7 +226,7 @@
             <li>
                 ● Google Chrome</li>
             <li>
-                ● Registrarse en Github (GIT)
+                ● Github (GIT)
                 <ul>
                     <li><a href="
                         https://github.com/">
@@ -216,35 +238,10 @@
     <div class="div4">
         <h3 class="title-general">Dedicación</h3>
         <p class="text-responsive-fsj">
-            La dedicación estimada para el curso es de 20 horas semanales que involucran 2 encuentros semanales
-            online de 2
-            horas cada uno + la preparación individual asincrónica de proyectos individuales y grupales. (Peer
-            programing
-            y mob programming)
-            Requerimientos de Aprobación </p>
-        <h3 style="    padding-top: 4vh;">Acreditación</h3>
-        <p class="text-responsive-fsj">Se realizarán 4 evaluaciones a lo largo del curso para determinar el
-            aprendizaje
-            alcanzado a medida que se
-            avance.
-            Los estudiantes deberán alcanzar un puntaje mínimo de 30 puntos en el total de las evaluaciones
-            administradas.
-            El puntaje más alto será de 50 puntos.
-            Proyecto final</p>
-        <h3 style="    padding-top: 4vh;">Entrega de Proyecto Final</h3>
-        <p class="text-responsive-fsj"> Una vez culminado el curso los estudiantes deben realizar un proyecto final
-            que
-            englobe todos los temas que se
-            vieron a lo largo de los encuentros. En la entrega final del proyecto el alumno será evaluado del 1 al
-            10 por
-            el mentor, donde se tendrá en cuenta la calidad del proyecto final entregado.
-            El puntaje mínimo para su aprobación es de 6 puntos
-        </p>
-        <h3 style=" padding-top: 4vh;"> Asistencia</h3>
-        <h3 class="title-general">Cantidad de clases asistidas</h3>
-        <p class="text-responsive-fsj">El alumno deberá asistir a más del 70% de las clases (al menos 13 clases)
-            del
-            curso
+           La dedicación estimada para el curso es de 20 horas semanales que involucran 2 encuentros semanales online de 2 horas cada uno, sumada también la preparación individual asincrónica de proyectos individuales y grupales. (pair programing y mob programing).
+
+            </p>
+      
     </div>
     <div class="div5">
 
@@ -352,6 +349,19 @@
                                     $('#header').html(data.Menu);
                                     $('#footer').html(data.Footer);
                                     $("#proximas-fechas").html(data.CursesItems);
+
+                                    //initialice menu
+                                    $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                        $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                        $(this).siblings().toggleClass("show");
+                                        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                            $('.dropdown-submenu .show').removeClass("show");
+                                        });
+                                    });
+
+
                                 }
                             },
                             fnLlamadaError

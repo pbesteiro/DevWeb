@@ -36,14 +36,36 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/angular.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
-        
-        <a href="https://wa.me/5491121685045" 
-            class="whatsapp" target="_blank"> 
+
+        <a href="https://wa.me/5491121685045"
+            class="whatsapp" target="_blank">
             <i class="fa fa-whatsapp whatsapp-icon"></i>
         </a>
         <!--******++++++++++++HEADER++++++++++*********-->
@@ -57,7 +79,7 @@
                     <div class="carousel-title">
                         <div class="container-grid-developer-btn">
                             <button class="btn-aplica-slide" type="button">
-                            <a href="#proximas-fechas" class="btn-aplica-scroll">Aplica</a>
+                                <a href="#proximas-fechas" class="btn-aplica-scroll">Aplica</a>
                             </button>
                         </div>
                     </div>
@@ -67,32 +89,25 @@
         <div class="parent">
             <div class="div1">
                 <div>
-                    <h3 class="title-general">Objetivos del Programa</h3>
+                    <h3 class="title-general">¿Qué vas a aprender?</h3>
                     <p>
-                        El objetivo principal del curso es enseñarte Angular , empezando de cero hasta llevarte a un nivel avanzado
-          y competitivo. Este curso te ayudará a entrar fácilmente al framework de Javascript más usado en el
-          mercado laboral.
-          Angular te abre un mundo de posibilidades en la creación de interfaces dinámicas y escalables, permite
-          reutilizar el código en aplicaciones destinadas a diferentes dispositivos. Aplicaciones de escritorio,
-          móviles o web.
-          El curso tiene como meta lograr que el profesional se interiorice con las buenas prácticas en desarrollo de
-          front end.
-          Angular es el framework de JavaScript más potente y popular que existe. Lo desarrolló Google y es
-          utilizado en las app más conocidas como Gmail, Santander Rio.
-       
+                        El objetivo principal del curso es enseñarte AngularJS, empezando de cero hasta llevarte a un nivel avanzado 
+                        y competitivo. Este curso te ayudará a introducirte fácilmente al framework de JavaScript más usado en el mercado 
+                        laboral. AngularJS te abre un mundo de posibilidades en la creación de interfaces dinámicas y escalables, 
+                        que te permite reutilizar el código en aplicaciones destinadas a diferentes dispositivos (aplicaciones de escritorio, móviles o web). 
+                        El curso tiene como meta lograr que te interiorices con las buenas prácticas en desarrollo de Front End. 
+                        AngularJS es el framework de JavaScript más potente y popular que existe. 
                     </p>
                     <div>
                         <img width="350vw" height="250vw" src="assets/images/dw.png" alt="" />
 
-
                     </div>
                 </div>
             </div>
-            
+
             <div class="div2">
                 <div class="card-cursos">
                     <div class="contenido-card" id="precios">
-                        
                     </div>
 
 
@@ -100,96 +115,56 @@
             </div>
 
             <div class="div3">
-                <h3 class="title-general">Requisitos</h3>
+                <h3 class="title-general">¿A quién va dirigido?</h3>
                 <p>
-                    El curso está dirigido a estudiantes de la carrera de sistemas o afines (siendo en universidad o
-        tecnicaturas) o profesionales de la industria que tengan experiencia mínima de 6 meses desarrollando en
-        Javascript.
-        En caso de no contar con esta experiencia, te recomendamos realizar nuestro curso de JavaScript.
-
-     
+                    El curso está dirigido a estudiantes de la carrera de sistemas o afines (siendo en universidad o tecnicaturas) 
+                    o profesionales de la industria que tengan experiencia mínima de 8 meses desarrollando JavaScript. 
+                    En caso de no contar con esta experiencia, te recomendamos realizar nuestro curso de JavaScript.
                 </p>
-                <img width="350vw" height="250vw" src=" assets/images/data-analytics-programa.jpg" alt="">
+
                 <h3 class="title-general">Requisitos</h3>
                 <ul>
-                    <li>● Sólidos conocimientos de programación</li>
-                    <li>● Sólidos conocimientos en Javascript, ES6</li>
-                    <li>● Nociones de HTML y CSS</li>
-                    <li>● Deben de tener una computadora con Navegador Web (Google Chrome, Mozilla o Safari)</li>
-
+                    <li>● Sólidos conocimientos de programación.</li>
+                    <li>● Sólidos conocimientos en Javascript, ES6.</li>
+                    <li>● Nociones de HTML y CSS.</li>
                 </ul>
-
-
             </div>
 
             <div class="div4">
                 <h3 class="title-general">Herramientas del Desarrollo</h3>
-                <ul>
-                    <li>● NodeJs</li>
-                    <li>● Npm o yarn</li>
-                    <li>● Editor de código (VSCode, Atom, etc)</li>
-                    <li>● Terminal </li>
-                    <li>● Registrarse en Github (GIT)
-         
-                        <ul>
-                            <li>○ <a href="https://github.com/">github.com</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <h3 class="title-general">Dedicación</h3>
-                <p>
-                    La dedicación estimada para el curso es de 20 horas semanales que involucran 2 encuentros semanales online de
-        2 horas cada uno + la preparación individual asincrónica de proyectos individuales y grupales. (Peer
-        programing y mob programming)
-                </p>
+                <ul> https://yarnpkg.com/package/download
+                    <li>● Google Chrome (<a href="https://www.google.com/intl/es/chrome/?brand=UUXU&gclid=EAIaIQobChMI7tGaleiP8gIV9Al9Ch1o3Q5cEAAYASAAEgJeCvD_BwE&gclsrc=aw.ds">Descarga</a>).</li>
+                    <li>● NodeJs (<a href="https://nodejs.org/es/download/"</a>).</li>
+                    <li>● Yarn o npm.</li>
+                    <li>● Visual Studio Code (<a href="https://code.visualstudio.com/download" >Descarga</a>). </li>
+                    <li>● Github  (<a href="https://github.com/">https://github.com/</a>).</li>
+                </ul>                
 
             </div>
 
             <div class="div5">
-                <h3 class="title-general">Requisito de Aprobación</h3>
-                <p>
-                    Se realizarán 2 evaluaciones a lo largo del curso para determinar el aprendizaje alcanzado a medida que se
-        avance.
-        Los estudiantes deberán alcanzar un puntaje mínimo de 30 puntos en el total de las evaluaciones administradas.
-        El puntaje más alto será de 50 puntos.
-     
-                </p>
                 <h3 class="title-general">Proyecto final</h3>
-
-
+                
                 <p>
-                    Una vez culminado el curso los estudiantes deben realizar un proyecto final que englobe todos los temas que se
-        vieron a lo largo de los encuentros. En la entrega final del proyecto el alumno será evaluado del 1 al 10 por
-        el
-        mentor, donde se tendrá en cuenta la calidad del proyecto final entregado.
-        El puntaje mínimo para su aprobación es de 6 puntos.
-                </p>
-                <h3 class="title-general">Asistencia</h3>
-
-                <p>
-                    El alumno deberá asistir a más del 70% de las clases (al menos 13 clases) del curso
-     
+                    El proyecto final e integrador que se realiza durante la cursada, será aquel que en caso de estar aprobado, 
+                    la institución (DEV PLACE) emitirá un certificado de aprobación del curso. En todas las clases, 
+                    el mentor dispondrá de los primeros 10 minutos en concepto de "daily" para que los alumnos puedan mostrar avances 
+                    y evacuar dudas. Al terminar el curso se hará una clase extra donde los alumnos tendrán que exponer el proyecto y defenderlo. 
+                    Finalizada la exposición, el alumno tendrá que entregar el proyecto para que el mentor lo corrija según las 
+                    rúbricas de evaluación dispuestas por DEV PLACE. 
+                    Posteriormente el mentor le alcanzará una devolución al alumno donde se considerará si el proyecto está 
+                    "aprobado" o se debe "volver a hacer".
                 </p>
 
-
-
+                
                 <h3 class="title-general">Perfil del Egresado</h3>
-                <div>
-                    <p>
-                        Al finalizar este programa estará capacitado para;
-       
-                    </p>
-
-                    <ul>
+                <div class="flex-egresado">
+                    <ul class="list-egresado-js">
+                        <li>El egresado será capaz de:</li>
                         <li>● Crear aplicaciones en Angular siguiendo las mejores prácticas.</li>
-                        <li>● Dominar TypeScript para crear aplicaciones en Angular JS.
-          </li>
-                        <li>● Crear componentes reutilizables
-          </li>
-                        <li>● Crear una aplicación cliente que consuma una API externa con autenticación y rutas
-            protegidas.
-          </li>
+                        <li>● Dominar TypeScript para crear aplicaciones en Angular JS.</li>
+                        <li>● Crear componentes reutilizables.</li>
+                        <li>● Crear una aplicación cliente que consuma una API externa con autenticación y rutas protegidas.</li>
                         <li>● Usar librerías de terceros.</li>
                         <li>● Publicar tu aplicación en internet.</li>
                     </ul>
@@ -200,11 +175,10 @@
 
             <div class="div6">
                 <section id="proximas-fechas">
-                    
                 </section>
             </div>
 
-          
+
         </div>
     </form>
 
@@ -275,6 +249,18 @@
                                 $('#footer').html(data.Footer);
                                 $("#proximas-fechas").html(data.CursesItems);
                                 $("#precios").html(data.CurseFees);
+
+                                //initialice menu
+                                $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                    $(this).siblings().toggleClass("show");
+                                    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                        $('.dropdown-submenu .show').removeClass("show");
+                                    });
+                                });
+
                                 addScrollEfect();
                             }
                         },

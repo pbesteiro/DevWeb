@@ -36,6 +36,28 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/html-css.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -56,7 +78,7 @@
                 <div class="carousel-item active carousel">
                     <div class="carousel-title">
                         <div class="container-grid-developer-btn">
-                            <button class="btn-aplica-slide">
+                            <button class="btn-aplica-slide" type="button">
                                 <a href="#proximas-fechas" class="btn-aplica-scroll">Aplica</a>
                             </button>
                         </div>
@@ -67,13 +89,14 @@
         <div class="parent">
             <div class="div1">
                 <div class="text-analytics">
-                    <h3 class="title-general">¿Qué vas a Aprender?</h3>
-                    <ul style="margin-left: 2vw; list-style: decimal;">
-                        <li>Desarrollo de páginas web siguiendo las mejores practicas</li>
-                        <li>Dominar HTML y CSS</li>
-                        <li>Crear sitios web responsive</li>
-                        <li>Utilizar distintos Frameworks</li>
-                    </ul>
+                   <h3 class="title-general">¿Qué vas a aprender?</h3>
+                <p>
+                    El objetivo de este curso es enseñarte a desarrollar una página web de viajes a la cual se podrá acceder desde diferentes 
+                    dispositivos, ya sea una computadora, tablet o celular.</p>
+                <p>
+                    Contará con un diseño moderno, con animaciones y elementos multimedia. Además, tendrá varias secciones para que 
+                    los usuarios puedan ver los precios, realizar consultas y ver destinos destacados.
+                </p>
 
                     <div>
                         <img width="350vw" height="250vw" src="assets/images/htmlbrowser.png" alt="" />
@@ -90,41 +113,50 @@
                 </div>
             </div>
             <div class="div3">
-                <h3 class="title-general">Contenido del Programa</h3>
-                <p>
-                    El proyecto que vamos a crear en este curso es una página de viajes a la cual se podrá acceder desde
-        diferentes dispositivos, ya sea una computadora, tablet o celular.
-       
-                    <br>
-                    Contará con un diseño moderno, con animaciones y elementos multimedia. Además, tendrá varias secciones
-        para que los usuarios puedan ver los precios, realizar consultas y ver destinos destacados.
-
-     
-                </p>
-                <img width="350vw" height="250vw" src="assets/images/egresado-csharp.jpg" alt="">
-            </div>
-
-            <div class="div4">
+                <h3 class="title-general">¿A quién va dirigido?</h3>
+                <p>El curso está dirigido a personas con experiencia mínima o nula en programación.</p>   
+                
                 <div>
                     <h3 class="title-general">Requisitos</h3>
                     <ul>
-                        <li>● Conocimiento básico de computadoras.</li>
-                        <li>● Navegador web (Chrome, Firefox o Safari)</li>
-
+                        <li>● Conocimiento básico de computación.</li>
                     </ul>
                 </div>
+
+                <h3 class="title-general">Herramientas de Desarrollo</h3>
+                <ul>
+                    <li>● Visual Studio Code (<a href="https://code.visualstudio.com/download" >Descarga</a>). </li>
+                    <li>● Google Chrome (<a href="https://www.google.com/intl/es/chrome/?brand=UUXU&gclid=EAIaIQobChMI7tGaleiP8gIV9Al9Ch1o3Q5cEAAYASAAEgJeCvD_BwE&gclsrc=aw.ds">Descarga</a>).</li>
+                    <li>● Github (<a href="https://github.com/">https://github.com/</a>).</li>
+                </ul>
+                
+            </div>
+
+            <div class="div4">
+                
                 <img width="250vw" height="250vw" src="assets/images/dw1.jpg" alt="">
+
+                <h3 class="title-general">Proyecto Final</h3>
+
+               <p>
+                    El proyecto final e integrador que se realiza durante la cursada, será aquel que en caso de estar aprobado, 
+                    la institución (DEV PLACE) emitirá un certificado de aprobación del curso. En todas las clases, 
+                    el mentor dispondrá de los primeros 10 minutos en concepto de "daily" para que los alumnos puedan mostrar avances 
+                    y evacuar dudas. Al terminar el curso se hará una clase extra donde los alumnos tendrán que exponer el proyecto y defenderlo. 
+                    Finalizada la exposición, el alumno tendrá que entregar el proyecto para que el mentor lo corrija según las 
+                    rúbricas de evaluación dispuestas por DEV PLACE. 
+                    Posteriormente el mentor le alcanzará una devolución al alumno donde se considerará si el proyecto está 
+                    "aprobado" o se debe "volver a hacer".
+                </p>
             </div>
 
             <div class="div5">
                 <h3 class="title-general">Perfil del Egresado</h3>
 
                 <ul>
-                    <li>El egresado será capaz de:</li>
-                    <li>● Desarrollo de páginas web siguiendo las mejores prácticas </li>
-                    <li>● Dominar HTML y CSS</li>
-                    <li>● Pasar de un nivel cero a intermedio</li>
-
+                    <li>Al finalizar este curso estará capacitado para:</li>
+                    <li>● Desarrollar páginas web siguiendo las mejores prácticas.</li>
+                    <li>● Utilizar HTML y CSS.</li>
                     <li>● Crear sitios web responsive.</li>
                 </ul>
                 <img width="350vw" height="250vw" src="assets/images/concepto-ceremonia-graduacion-virtual_23-2148573423.jpeg"
@@ -212,6 +244,19 @@
                                 $('#footer').html(data.Footer);
                                 $("#proximas-fechas").html(data.CursesItems);
                                 $("#precios").html(data.CurseFees);
+
+                                //initialice menu
+                                $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                    $(this).siblings().toggleClass("show");
+                                    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                        $('.dropdown-submenu .show').removeClass("show");
+                                    });
+                                });
+
+
                                 addScrollEfect();
                             }
                         },

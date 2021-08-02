@@ -22,11 +22,13 @@
     <link rel="stylesheet" href="assets/css/fl-bigmug-line.css" />
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!--<link rel="stylesheet" href="assets/css/aos.css" />-->
 
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/actualizacion27-5.css" />
+
     <!-- Global site tag (gtag.js) - Google Ads: 368077802 -->
+    <link rel="stylesheet" href="assets/css/actualizacion27-5.css" />
+    
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -38,10 +40,171 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 
 </head>
 
 <body>
+
+      <%--<nav class="navbar sticky-top navbar-expand-lg navbar-light" >
+  <div class="container">
+    <div class="logo-container">
+        <a class="navbar-brand" href="index.aspx">
+            <img width="200px" src="assets/images/logo.svg" alt="" />
+        </a>
+    </div>
+
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item subtit"><a href="index.aspx" class="title">Home</a></li>
+
+
+        <li class="nav-item dropdown title">
+          <a class="nav-link rounded-sm aishles-dropdown " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cursos
+        </a>
+          <ul class="dropdown-menu">
+
+
+            <li class="dropdown-submenu">
+              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Base de datos</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                  <a href="sql.aspx" class="dropdown-item">SQL</a>
+                </li>
+               
+              </ul>
+            </li>
+
+            <li class="dropdown-submenu">
+              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Para Developers</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Esenciales</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a href="js.aspx" class="dropdown-item">JavaScript</a>
+                    </li>               
+                  </ul>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Front End</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a href="ReactJs.aspx" class="dropdown-item">React JS</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="angular.aspx" class="dropdown-item">Angular JS</a>
+                    </li>   
+                  </ul>
+                </li> 
+
+                <li class="dropdown-submenu">
+                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Back End</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a href="csharp.aspx" class="dropdown-item">C#</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="nodejs.aspx" class="dropdown-item">Node JS</a>
+                    </li>   
+                  </ul>
+                </li> 
+
+
+                  
+              </ul>
+                <li class="dropdown-submenu">
+                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Programación Básica</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                      <a href="html-css.aspx" class="dropdown-item">HTML y CSS</a>
+                    </li>
+                     <li class="dropdown-item">
+                      <a href="js-basico.aspx" class="dropdown-item">JavaScript Básico</a>
+                    </li>              
+                  </ul>
+                </li>
+            </li>
+
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown title">
+          <a class="nav-link rounded-sm aishles-dropdown " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programas
+        </a>
+          <ul class="dropdown-menu">
+
+
+            <li class="dropdown-submenu">
+              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Datos</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                  <a href="datascience.aspx" class="dropdown-item">Data Science</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="analytics.aspx" class="dropdown-item">Data Analytics</a>
+                </li>               
+              </ul>
+            </li>
+
+            <li class="dropdown-submenu">
+              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Para Developers</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                  <a href="programafullstack.aspx" class="dropdown-item">Desarrollo Full Stack JavaScript</a>
+                </li>              
+              </ul>
+            </li>
+
+            <li class="dropdown-submenu">
+              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Programación Básica</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                  <a href="programafullstack.aspx" class="dropdown-item">Desarrollo Web</a>
+                </li>              
+              </ul>
+            </li>
+
+          </ul>
+        </li>
+
+
+
+        <li class="nav-item subtit"><a href="About.aspx" class="title">Para Empresas </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>--%>
+
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
         
@@ -438,6 +601,16 @@
                             if (data != "") {
                                 $('#header').html(data.Menu);
                                 $('#footer').html(data.Footer);
+
+                                $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                    $(this).siblings().toggleClass("show");
+                                    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                        $('.dropdown-submenu .show').removeClass("show");
+                                    });
+                                });
                             }
                         },
                         fnLlamadaError
@@ -455,6 +628,14 @@
         function fnLlamadaError(excepcion) {
             swal(excepcion.get_message(), "", "error");
         }
+
+
+        // menu
+        $(function () {
+           
+        });
+        // end menu
+
 
     </script>
 

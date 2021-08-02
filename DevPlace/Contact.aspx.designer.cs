@@ -7,13 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace CruceroDelNorte
-{
-
-
-    public partial class About
-    {
-
+namespace CruceroDelNorte {
+    
+    
+    public partial class About {
+        
         /// <summary>
         /// Control form1.
         /// </summary>
@@ -21,8 +19,8 @@ namespace CruceroDelNorte
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        /// 
-
+        //protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
         /// <summary>
         /// Control ScriptManager1.
         /// </summary>

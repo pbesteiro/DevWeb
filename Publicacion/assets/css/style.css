@@ -79,7 +79,7 @@ header h1 {
 }
 
 button:hover{
-  background-color: #111;
+  /*background-color: #111;*/
   color: #fff;
 }
 

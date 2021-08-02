@@ -6,6 +6,16 @@
 
 <head>
     <title>DEV PLACE</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8F2VXV');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -37,9 +47,36 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/csharp.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1769489329920279');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1769489329920279&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8F2VXV"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
         
@@ -67,11 +104,9 @@
         <div class="parent">
             <div class="div1">
                 <div>
-                    <h3 class="title-general">Objetivos del Programa</h3>
-                    <p>
-                        El‌ ‌curso‌ ‌tiene‌ ‌como‌ ‌meta‌ ‌lograr‌ ‌que‌ ‌el‌ ‌profesional‌ ‌se‌ ‌interiorice‌ ‌con‌ ‌las‌ ‌buenas‌ ‌prácticas‌ ‌en‌ ‌
-desarrollo‌ ‌y‌ ‌profundice‌ ‌su‌ ‌conocimientos‌ ‌en‌ ‌el‌ ‌lenguaje‌ ‌C#.‌
-                    </p>
+                    <h3 class="title-general">¿Qué vas a aprender?</h3>
+                    <p>El‌ ‌curso‌ ‌tiene‌ ‌como‌ ‌meta‌ ‌lograr‌ ‌que‌ te ‌interiorice‌s en ‌las‌ ‌buenas‌ ‌prácticas‌ ‌en‌ desarrollo‌ 
+                        ‌y‌ ‌profundice‌s ‌tus ‌conocimientos‌ ‌en‌ ‌el‌ ‌lenguaje‌ ‌C#.‌‌</p>
                     <div>
                         <img width="350vw" height="250vw" src="assets/images/dw1.jpg" alt="" />
 
@@ -89,7 +124,7 @@ desarrollo‌ ‌y‌ ‌profundice‌ ‌su‌ ‌conocimientos‌ ‌en‌ ‌
                 </div>
             </div>
             <div class="div3">
-                <h3 class="title-general">Perfil del Ingresante</h3>
+                <h3 class="title-general">¿A quién va dirigido?</h3>
                 <p>
                     El curso está dirigido a estudiantes de la carrera de sistemas o afines (siendo en universidad o
       tecnicaturas) o profesionales de la industria que tengan experiencia mínima de 6 meses desarrollando algún
@@ -99,104 +134,50 @@ desarrollo‌ ‌y‌ ‌profundice‌ ‌su‌ ‌conocimientos‌ ‌en‌ ‌
                 <img width="350vw" height="250vw" src="assets/images/data-analytics-programa.jpg" alt="">
                 <h3 class="title-general">Requisitos</h3>
                 <ul>
-                    <li>● Familiaridad con la plataforma .NET y Windows 10 </li>
-                    <li>● Conocimientos básicos de Visual Studio </li>
-                    <li>● Conocimientos básicos de ANSI SQL y SQL Server</li>
+                    <li>● Familiaridad con la plataforma .NET y Windows 10. </li>
+                    <li>● Conocimientos básicos de Visual Studio. </li>
+                    <li>● Conocimientos básicos de ANSI SQL y SQL Server.</li>
 
                 </ul>
                 <h4 class="title-general">Herramientas de Desarrollo</h4>
                 <ul>
-                    <li>
-                        <ul>
-                            <li>● Cuenta de correo Microsoft (@outlook, @hotmail)
-           
-                                <ul>
-                                    <li>○ http://outlook.live.com</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Descargar e instalar Visual Studio 2019 Community (VS2019)
-       
-                        <ul>
-                            <li>○ Luego de instalar, requiere iniciar sesión con cuenta de correo Microsoft.</li>
-                        </ul>
-                    </li>
-                    <li>● Descargar e instalar .NET Core 3.1
-       
-                        <ul>
-                            <li>○ NOTA: Antes de descargar e instalar, verificar si ya está incluído en su
-            VS2019</li>
-                            <li>○ https://dotnet.microsoft.com/download</li>
-                        </ul>
-                    </li>
-                    <li>● Descargar e instalar Sql Server Express Edition (MSSQL)
-       
-                        <ul>
-                            <li>○ https://www.microsoft.com/en-us/sql-server/sql-server-downloads</li>
-                        </ul>
-                    </li>
-                    <li>● Descargar e instalar Postman
-       
-                        <ul>
-                            <li>○ https://www.postman.com/</li>
-                        </ul>
-                    </li>
-                    <li>● Registrarse en Github (GIT)
-       
-                        <ul>
-                            <li>○ https://github.com/
-          </li>
-                        </ul>
-                    </li>
-
-
-
-
+                    <li>● Cuenta de correo electrónico Microsoft (<a href="http://outlook.live.com">@outlook, @hotmail</a>)</li>
+                    <li>● Visual Studio 2019 Community (<a href="https://visualstudio.microsoft.com/es/vs/community/">Descarga</a>).</li>
+                    <li>● .NET Core 3.1 (<a href="https://dotnet.microsoft.com/download/dotnet/3.1"> Descarga</a>).</li>
+                    <li>● SQL Server Management Studio - Express Edition (<a href="https://www.microsoft.com/es-ar/download/details.aspx?id=8961"> Descarga</a>).</li>
+                    <li>● Descargar e instalar Postman (<a href="https://www.postman.com/downloads/">Descarga</a>).</li>
+                    <li>● Github (<a href="https://github.com/">https://github.com/</a>).</li>
                 </ul>
             </div>
 
             <div class="div4">
-                <h3 class="title-general">Dedicación</h3>
-                <p>
-                    La dedicación estimada para el curso es de 20 horas semanales que involucran 2 encuentros semanales online de
-      2 horas cada uno + la preparación individual asincrónica de proyectos individuales y grupales.( Peer
-      programing y mob programming)
-                </p>
-                <h3 class="title-general">Requerimientos de Aprobación</h3>
-                <p>
-                    Acreditación
-      Se realizarán varias evaluaciones a lo largo del curso para determinar el aprendizaje alcanzado a
-      medida que se avance.
-      Los estudiantes deberán alcanzar un puntaje mínimo de 30 puntos en el total de las evaluaciones administradas.
-      El puntaje más alto será de 50 puntos.
-                </p>
+               
                 <h3 class="title-general">Proyecto final</h3>
 
-                <p>
-                    Una vez culminado el curso los estudiantes deben realizar un proyecto final que englobe todos los temas que se
-      vieron a lo largo de los encuentros. En la entrega final del proyecto el alumno será evaluado del 1 al 10 por
-      el mentor, donde se tendrá en cuenta la calidad del proyecto final entregado.
-      El puntaje mínimo para su aprobación es de 6 puntos.
-   
+               <p>
+                    El proyecto final e integrador que se realiza durante la cursada, será aquel que en caso de estar aprobado, 
+                    la institución (DEV PLACE) emitirá un certificado de aprobación del curso. En todas las clases, 
+                    el mentor dispondrá de los primeros 10 minutos en concepto de "daily" para que los alumnos puedan mostrar avances 
+                    y evacuar dudas. Al terminar el curso se hará una clase extra donde los alumnos tendrán que exponer el proyecto y defenderlo. 
+                    Finalizada la exposición, el alumno tendrá que entregar el proyecto para que el mentor lo corrija según las 
+                    rúbricas de evaluación dispuestas por DEV PLACE. 
+                    Posteriormente el mentor le alcanzará una devolución al alumno donde se considerará si el proyecto está 
+                    "aprobado" o se debe "volver a hacer".
                 </p>
-                <h3 class="title-general">Asistencia</h3>
-
-                <p>El alumno deberá asistir a más del 70% de las clases (al menos 13 clases) del curso</p>
-
-
+               
             </div>
 
             <div class="div5">
 
                 <h3 class="title-general">Perfil del Egresado</h3>
-                <div>
-                    <p>El egresado será capaz de armar una API RestFul completa de punta a punta.</p>
-                    <p>Realizar el deploy en un Servidor.</p>
-                    <p>Realizar un desarrollo en C# utilizando las mejores prácticas del lenguaje.</p>
-                    <p>Aumentar su capacidad analitica para la correcta toma de decisiones en la realización de un proyecto backend.</p>
-                    <p>Ganar experiencia en la utilización de las herramientas y librerías más usadas del mercado del framework .NET Core.</p>
-                </div>
+                <ul class="div4-ul-sql">
+                    <li>El egresado será capaz de :</li>
+                    <li>● Armar una API RestFul completa de punta a punta.</li>
+                    <li>● Realizar el deploy en un Servidor. </li>
+                    <li>● Realizar un desarrollo en C# utilizando las mejores prácticas del lenguaje. </li>
+                    <li>● Aumentar su capacidad analítica para la correcta toma de decisiones en la realización de un proyecto Backend. </li>
+                    <li>● Utilizar las herramientas y librerías más demandadas del mercado del framework .NET Core.</li>
+                </ul>
 
             </div>
             <div class="div6">
@@ -299,6 +280,19 @@ desarrollo‌ ‌y‌ ‌profundice‌ ‌su‌ ‌conocimientos‌ ‌en‌ ‌
                                 $('#footer').html(data.Footer);
                                 $("#proximas-fechas").html(data.CursesItems);
                                 $("#precios").html(data.CurseFees);
+
+                                //initialice menu
+                                $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    $(this).parents('.dropdown-submenu').siblings().find('.show').removeClass("show");
+                                    $(this).siblings().toggleClass("show");
+                                    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                                        $('.dropdown-submenu .show').removeClass("show");
+                                    });
+                                });
+
+
                                 addScrollEfect();
                             }
                         },
