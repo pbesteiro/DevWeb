@@ -194,7 +194,7 @@
                         <li>● Deployar la Api en los servidores Heroku y la base de datos en MongoDb Atlas.</li>
 
                     </ul>
-                    <img width="250vw" height="250vw" src="assets/images/concepto-ceremonia-graduacion-virtual_23-2148573423 1.png"
+                    <img width="350vw" height="250vw" src="assets/images/concepto-ceremonia-graduacion-virtual_23-2148573423 1.png"
                         alt="">
                 </div>
             </div>

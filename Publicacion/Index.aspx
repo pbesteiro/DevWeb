@@ -5,6 +5,16 @@
 
 <head>
     <title>DEV PLACE</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8F2VXV');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -65,146 +75,11 @@
 </head>
 
 <body>
-
-      <%--<nav class="navbar sticky-top navbar-expand-lg navbar-light" >
-  <div class="container">
-    <div class="logo-container">
-        <a class="navbar-brand" href="index.aspx">
-            <img width="200px" src="assets/images/logo.svg" alt="" />
-        </a>
-    </div>
-
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item subtit"><a href="index.aspx" class="title">Home</a></li>
-
-
-        <li class="nav-item dropdown title">
-          <a class="nav-link rounded-sm aishles-dropdown " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Cursos
-        </a>
-          <ul class="dropdown-menu">
-
-
-            <li class="dropdown-submenu">
-              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Base de datos</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item">
-                  <a href="sql.aspx" class="dropdown-item">SQL</a>
-                </li>
-               
-              </ul>
-            </li>
-
-            <li class="dropdown-submenu">
-              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Para Developers</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Esenciales</a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                      <a href="js.aspx" class="dropdown-item">JavaScript</a>
-                    </li>               
-                  </ul>
-                </li>
-
-                <li class="dropdown-submenu">
-                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Front End</a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                      <a href="ReactJs.aspx" class="dropdown-item">React JS</a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a href="angular.aspx" class="dropdown-item">Angular JS</a>
-                    </li>   
-                  </ul>
-                </li> 
-
-                <li class="dropdown-submenu">
-                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Back End</a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                      <a href="csharp.aspx" class="dropdown-item">C#</a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a href="nodejs.aspx" class="dropdown-item">Node JS</a>
-                    </li>   
-                  </ul>
-                </li> 
-
-
-                  
-              </ul>
-                <li class="dropdown-submenu">
-                  <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Programación Básica</a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                      <a href="html-css.aspx" class="dropdown-item">HTML y CSS</a>
-                    </li>
-                     <li class="dropdown-item">
-                      <a href="js-basico.aspx" class="dropdown-item">JavaScript Básico</a>
-                    </li>              
-                  </ul>
-                </li>
-            </li>
-
-          </ul>
-        </li>
-
-
-        <li class="nav-item dropdown title">
-          <a class="nav-link rounded-sm aishles-dropdown " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Programas
-        </a>
-          <ul class="dropdown-menu">
-
-
-            <li class="dropdown-submenu">
-              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Datos</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item">
-                  <a href="datascience.aspx" class="dropdown-item">Data Science</a>
-                </li>
-                <li class="dropdown-item">
-                  <a href="analytics.aspx" class="dropdown-item">Data Analytics</a>
-                </li>               
-              </ul>
-            </li>
-
-            <li class="dropdown-submenu">
-              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Para Developers</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item">
-                  <a href="programafullstack.aspx" class="dropdown-item">Desarrollo Full Stack JavaScript</a>
-                </li>              
-              </ul>
-            </li>
-
-            <li class="dropdown-submenu">
-              <a href="#" role="button" data-toggle="dropdown" class="dropdown-item dropdown-toggle">Programación Básica</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item">
-                  <a href="programafullstack.aspx" class="dropdown-item">Desarrollo Web</a>
-                </li>              
-              </ul>
-            </li>
-
-          </ul>
-        </li>
-
-
-
-        <li class="nav-item subtit"><a href="About.aspx" class="title">Para Empresas </a></li>
-      </ul>
-    </div>
-  </div>
-</nav>--%>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8F2VXV"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
         

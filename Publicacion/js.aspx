@@ -5,6 +5,16 @@
 
 <head>
     <title>DEV PLACE</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8F2VXV');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta
         name="viewport"
@@ -69,6 +79,12 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8F2VXV"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- Google Tag Manager (noscript) -->
     <form id="form1" runat="server">
         <asp:ScriptManager EnablePageMethods="true" ID="ScriptManager1" runat="server" />
 
@@ -189,7 +205,7 @@
                         <li>● Tener la base sólida, para entrar a frameworks como AngularJS, React o Node. </li>
                     </ul>
                     <img
-                        width="250vw"
+                        width="350vw"
                         height="250vw"
                         src="assets/images/concepto-ceremonia-graduacion-virtual_23-2148573423.jpeg"
                         alt="" />
